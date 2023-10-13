@@ -1,0 +1,22 @@
+.container{
+	transform: translate(25vw,0);
+	width: 50vw;
+}
+/*tablet*/
+@media screen and (min-width:800px){
+	body{
+		font-size: 20px;
+	}
+	.container{
+		width: 30vw;
+	}
+}
+/*laptop*/
+@media screen and (min-width:1200px){
+	body{
+		font-size: 25px;
+	}
+	.container{
+		width: 25vw;
+	}
+}

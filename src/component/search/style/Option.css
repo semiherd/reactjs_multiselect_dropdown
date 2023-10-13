@@ -1,0 +1,73 @@
+.no-data{
+	display: flex;
+	justify-content: center;
+	background-color: tomato;
+	color: whitesmoke;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 0;
+	margin: 0;
+}
+.option{
+	align-items: center;
+	display: flex;
+	width: 50vw;
+	width: 100%;
+}
+.option h1{
+	margin: 1vh 1vw;
+	padding: 1vh 1vw;		
+	font-size: 1.25em;
+	text-align: center;
+	width: 50vw;
+}
+.scrollable-vertical{
+	overflow-y: scroll;
+}
+.option-list{
+	border: 1px solid teal;
+	border-radius: 5px;
+	align-self: center;
+	width: 50vw;	
+	height: 50vh;
+}
+.select-box{
+	width: 6vw;
+	font-size: 1.5em;
+}
+.list-button{
+	transform: translate(7vw,0);
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1%;
+	margin: 1% 0;
+	border-radius: 5px;
+	background-color: royalblue;
+	color: whitesmoke;
+}
+.list-with-button{				
+	padding:0;
+	margin: 0;
+}
+@media screen and (min-width:600px){
+	.list-button{
+		transform: translate(14vw,0);
+	}
+}
+@media screen and (min-width:800px){
+	.option-list{
+		width: 30vw;
+	}
+	.list-button{
+		transform: translate(6vw,0);
+	}
+}
+@media screen and (min-width:960px){
+	.option-list{
+		width: 25vw;
+	}
+	.list-button{
+		transform: translate(8vw,0);
+	}
+}
+
